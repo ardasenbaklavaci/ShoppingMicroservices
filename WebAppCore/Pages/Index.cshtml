@@ -1,0 +1,94 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Product List";
+}
+<style>
+    /* Grid layout for the products */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    /* Individual product card styling */
+    .product-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+    }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+    /* Image styling */
+    .product-image {
+        width: 100%;
+        height: auto;
+        max-height: 150px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    /* Product information styling */
+    .product-name {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin: 10px 0 5px;
+    }
+
+    .product-brand, .product-summary {
+        color: #666;
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+
+    .product-price {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #333;
+        margin: 10px 0;
+    }
+
+    /* Add to Cart button styling */
+    .add-to-cart-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .add-to-cart-btn:hover {
+            background-color: #0056b3;
+        }
+
+
+
+</style>
+
+
+<div class="product-grid">
+    @foreach (var product in Model.Products)
+    {
+        <div class="product-card">
+            <img src="https://via.placeholder.com/150" alt="@product.Name" class="product-image" />
+            <h2 class="product-name">@product.Name</h2>
+            <p class="product-brand">@product.Brand</p>
+            <p class="product-summary">@product.Summary</p>
+            <p class="product-price">$@product.Price</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    }
+</div>
