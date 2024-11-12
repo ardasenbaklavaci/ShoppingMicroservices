@@ -28,3 +28,34 @@ E:\VS Projects\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\refint\WebAppCo
 E:\VS Projects\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.pdb
 E:\VS Projects\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.genruntimeconfig.cache
 E:\VS Projects\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\ref\WebAppCore.dll
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\appsettings.Development.json
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\appsettings.json
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\WebAppCore.staticwebassets.runtime.json
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\WebAppCore.exe
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\WebAppCore.deps.json
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\WebAppCore.runtimeconfig.json
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\WebAppCore.dll
+E:\Github\ShoppingMicroservices\WebAppCore\bin\Debug\net8.0\WebAppCore.pdb
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.AssemblyInfoInputs.cache
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.AssemblyInfo.cs
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.csproj.CoreCompileInputs.cache
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.MvcApplicationPartsAssemblyInfo.cache
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.RazorAssemblyInfo.cache
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.RazorAssemblyInfo.cs
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.sourcelink.json
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\staticwebassets.build.json
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\staticwebassets.development.json
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\staticwebassets\msbuild.WebAppCore.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAppCore.props
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAppCore.props
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAppCore.props
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\scopedcss\bundle\WebAppCore.styles.css
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\scopedcss\projectbundle\WebAppCore.bundle.scp.css
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.dll
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\refint\WebAppCore.dll
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.pdb
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\WebAppCore.genruntimeconfig.cache
+E:\Github\ShoppingMicroservices\WebAppCore\obj\Debug\net8.0\ref\WebAppCore.dll

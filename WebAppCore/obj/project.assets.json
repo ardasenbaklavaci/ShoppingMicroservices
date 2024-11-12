@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Arda-PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Arda-PC\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\WebAppCore.csproj",
+      "projectUniqueName": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\WebAppCore.csproj",
       "projectName": "WebAppCore",
-      "projectPath": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\WebAppCore.csproj",
+      "projectPath": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\WebAppCore.csproj",
       "packagesPath": "C:\\Users\\Arda-PC\\.nuget\\packages\\",
-      "outputPath": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\obj\\",
+      "outputPath": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Arda-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

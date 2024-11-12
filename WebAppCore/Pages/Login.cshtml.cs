@@ -31,11 +31,12 @@ public class LoginModel : PageModel
         client.BaseAddress = new Uri("https://localhost:7176/");   // Adjust to your AuthAPI base URL
 
         HttpResponseMessage response = await client.PostAsJsonAsync("api/Auth/Login", LoginRequest);
-
+        
         if (response.IsSuccessStatusCode)
         {
             var result = await response.Content.ReadFromJsonAsync<LoginResponse>();
             HttpContext.Session.SetString("JWTToken", result.Token);
+            HttpContext.Session.SetString("User", LoginRequest.Username);
 
             // Redirect to the homepage or any secure area
             return RedirectToPage("/Index");

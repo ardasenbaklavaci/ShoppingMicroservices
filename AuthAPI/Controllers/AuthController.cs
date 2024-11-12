@@ -49,14 +49,15 @@ namespace AuthAPI.Controllers
         // POST: api/Auth/Login
         [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
-        {                       
+        {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
             if (user == null || !user.VerifyPassword(model.Password))
                 return Unauthorized("Invalid email or password.");
 
             var token = GenerateJwtToken(user);
-            return Ok(new { Token = token });
+            return Ok(new { UserId = user.Id, Token = token }); // Return both UserId and Token
         }
+
 
         private string GenerateJwtToken(User user)
         {

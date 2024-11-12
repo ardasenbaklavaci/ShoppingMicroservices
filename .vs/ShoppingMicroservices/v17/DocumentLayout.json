@@ -1,42 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VS Projects\\ShoppingMicroservices\\",
+  "WorkspaceRootPath": "E:\\Github\\ShoppingMicroservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\vs projects\\shoppingmicroservices\\webappcore\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_R048DA0_SQLEXPRESS/CartDB/True/SqlTable/dbo.CartItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\vs projects\\shoppingmicroservices\\webappcore\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\vs projects\\shoppingmicroservices\\authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FEDA648-5171-4992-97E2-4569A2140571}|CartMicroservice\\CartMicroservice.csproj|e:\\github\\shoppingmicroservices\\cartmicroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FEDA648-5171-4992-97E2-4569A2140571}|CartMicroservice\\CartMicroservice.csproj|solutionrelative:cartmicroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\github\\shoppingmicroservices\\authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\vs projects\\shoppingmicroservices\\authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\vs projects\\shoppingmicroservices\\authapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\vs projects\\shoppingmicroservices\\authapi\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\vs projects\\shoppingmicroservices\\authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\vs projects\\shoppingmicroservices\\authapi\\authdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\authdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\vs projects\\shoppingmicroservices\\authapi\\authdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\authdb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,110 +52,86 @@
               "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Login.cshtml",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml",
-              "RelativeToolTip": "WebAppCore\\Pages\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T11:39:04.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "AuthAPI\\appsettings.json",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\appsettings.json",
-              "RelativeToolTip": "AuthAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-05T07:39:50.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AuthAPI\\Program.cs",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Program.cs",
-              "RelativeToolTip": "AuthAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:36:19.661Z",
+              "DocumentIndex": 0,
+              "Title": "dbo.CartItems [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_R048DA0_SQLEXPRESS/CartDB/True/SqlTable/dbo.CartItems.sql",
+              "ToolTip": "dbo.CartItems [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-12T08:10:16.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AuthDbContext.cs",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Data\\AuthDbContext.cs",
-              "RelativeDocumentMoniker": "AuthAPI\\Data\\AuthDbContext.cs",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Data\\AuthDbContext.cs",
-              "RelativeToolTip": "AuthAPI\\Data\\AuthDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\CartMicroservice\\Program.cs",
+              "RelativeDocumentMoniker": "CartMicroservice\\Program.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\CartMicroservice\\Program.cs",
+              "RelativeToolTip": "CartMicroservice\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:34:11.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Login.cshtml.cs",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml.cs",
-              "RelativeToolTip": "WebAppCore\\Pages\\Login.cshtml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAASwCIAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:58:13.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthDB.sql ",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\AuthDB.sql",
-              "RelativeDocumentMoniker": "AuthAPI\\AuthDB.sql",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\AuthDB.sql",
-              "RelativeToolTip": "AuthAPI\\AuthDB.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-04T15:03:39.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T07:45:42.789Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AuthAPI\\Models\\User.cs",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Models\\User.cs",
-              "RelativeToolTip": "AuthAPI\\Models\\User.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAUwCYAAAAIAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Login.cshtml",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml",
+              "RelativeToolTip": "WebAppCore\\Pages\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T22:21:42.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\AuthAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\AuthAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwE0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:24:04.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T22:18:38.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Login.cshtml.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "WebAppCore\\Pages\\Login.cshtml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwCkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T22:15:38.306Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AuthAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAcwEkAAAA9AAAA",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "WebAppCore\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T14:23:31.649Z",
+              "WhenOpened": "2024-11-11T22:15:36.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebAppCore\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAAGQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T13:11:16.621Z",
               "EditorCaption": ""
             }
           ]

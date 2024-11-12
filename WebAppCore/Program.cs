@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-//Dependency injection for ProductAPI... 
+// Dependency injection for ProductAPI
 builder.Services.AddHttpClient("ProductAPI", client =>
 {
     client.BaseAddress = new Uri("https://localhost:7259/api/");
@@ -19,8 +19,7 @@ builder.Services.AddHttpClient("ProductAPI", client =>
     };
 });
 
-
-//Enable cors for to allow requests from Razor Pages app.
+// Enable CORS to allow requests from the Razor Pages app
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
@@ -32,16 +31,22 @@ builder.Services.AddCors(options =>
         });
 });
 
+// Add session services
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Adjust session timeout as needed
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
 var app = builder.Build();
 
-app.UseCors("AllowFrontend"); // cors allow frontend
+app.UseCors("AllowFrontend");
 
-
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -49,6 +54,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// Enable session middleware
+app.UseSession();
 
 app.UseAuthorization();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "83gIBnoHiYsRFpkn1Zlm2B4bumRhiKOEpmWxFyoSLM7KK9WGqMH96i6IJxWOPphzZyVLd1H2XqEGipjJEXBSkw==",
+  "dgSpecHash": "f4+ol7Sv2yJH0z8reCMk6fa/bJfmevC9iQSpwewzzfsgoO5qLBpGEcE64iqVwhelZPum3tJ25FTq3lUHDdjlyA==",
   "success": true,
-  "projectFilePath": "E:\\VS Projects\\ShoppingMicroservices\\AuthAPI\\AuthAPI.csproj",
+  "projectFilePath": "E:\\Github\\ShoppingMicroservices\\AuthAPI\\AuthAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arda-PC\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Arda-PC\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DnTLB+S766d6qgky27CZ25ZGhPw26duhHk0Nd/189ekA+C4Q2Fsf9VKGgYmHBV6KHoJyd04HHUqwKy2xaxdinw==",
+  "dgSpecHash": "6KZKGHk9xBoIUht715IZk7RzXJaxplFad3b0rIdUtgj7Zo52BQdPwElMdcUN92G2xTPgbCIyIWM8rWv5F/KilQ==",
   "success": true,
-  "projectFilePath": "E:\\VS Projects\\ShoppingMicroservices\\WebAppCore\\WebAppCore.csproj",
+  "projectFilePath": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\WebAppCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q59CHhOVuz1OQjsKktiLFb5I68RBK7lcwt+idVtB+M0=",
+  "Source": "CartMicroservice",
+  "BasePath": "_content/CartMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
