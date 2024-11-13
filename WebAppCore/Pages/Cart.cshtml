@@ -1,0 +1,119 @@
+﻿@page
+@model CartModel
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<h1>Shopping Cart</h1>
+
+@if (!Model.IsLoggedIn)
+{
+    <p>You must be logged in to view your cart. Redirecting...</p>
+}
+else if (Model.CartItems.Any())
+{
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CartItem item in Model.CartItems)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Quantity</td>
+                    <td>$@item.Price</td>
+                    <td>$@(item.Quantity * item.Price)</td>
+                    <td>
+                        <button onclick="removeFromCart('@item.ProductId')">Remove</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><strong>Total</strong></td>
+                <td colspan="2"><strong>$@Model.CartTotal</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="cart-checkout">
+        <button onclick="checkout()">Proceed to Checkout</button>
+    </div>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}
+
+<script>
+    async function removeFromCart(productId) {
+        // Implement remove functionality here
+    }
+
+    function checkout() {
+        // Implement checkout functionality here
+    }
+</script>
+
+<style>
+    .cart-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .cart-table th, .cart-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .cart-table th {
+            background-color: #f2f2f2;
+        }
+
+    .cart-checkout {
+        margin-top: 20px;
+        text-align: right;
+    }
+</style>
+
+
+<script>
+    async function removeFromCart(productId) {
+        const token = sessionStorage.getItem("JWTToken");
+
+        try {
+            const response = await fetch('https://localhost:7246/api/cart/remove', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`
+                },
+                body: JSON.stringify({ productId: productId })
+            });
+
+            if (response.ok) {
+                alert("Item removed from cart!");
+                window.location.reload();
+            } else {
+                alert("Failed to remove item from cart.");
+            }
+        } catch (error) {
+            console.error("Error removing item from cart:", error);
+        }
+    }
+
+    function checkout() {
+        // Redirect to checkout page or perform checkout logic
+        alert("Proceeding to checkout...");
+    }
+</script>

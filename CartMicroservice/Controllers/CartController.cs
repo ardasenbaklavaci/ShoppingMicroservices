@@ -40,6 +40,20 @@ namespace CartMicroservice.Controllers
             await _context.SaveChangesAsync();
             return Ok(new { Message = "Item added to cart successfully" });
         }
+
+        [HttpGet("items")]
+        public async Task<IActionResult> GetCartItems([FromQuery] string userId)
+        {
+            var cartItems = _context.CartItems.Where(c => c.UserId == userId).ToList();
+
+            if (cartItems.Count == 0)
+            {
+                return NotFound(new { Message = "No items found in cart" });
+            }
+
+            return Ok(cartItems);
+        }
+
     }
 
 }

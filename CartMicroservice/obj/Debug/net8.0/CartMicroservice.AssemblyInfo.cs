@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CartMicroservice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3583ddfd5020a8699ceb37c9cdd01edc9d65388")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9eba299228476799ad36b35f1aaf3b5b84544682")]
 [assembly: System.Reflection.AssemblyProductAttribute("CartMicroservice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CartMicroservice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
