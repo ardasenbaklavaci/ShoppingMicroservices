@@ -7,12 +7,14 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
+using WebAppCore.Models;
 
 public class CartModel : PageModel
 {
     private readonly IHttpClientFactory _clientFactory;
 
     public List<CartItem> CartItems { get; set; } = new List<CartItem>();
+    public List<Product> products { get; set; } = new List<Product>();
     public decimal CartTotal => CartItems.Sum(item => item.Price * item.Quantity);
     public bool IsLoggedIn { get; private set; }
     public string ErrorMessage { get; set; }
@@ -45,16 +47,31 @@ public class CartModel : PageModel
             // Fetch cart items for the logged-in user
             var CartResponse = await CartClient.GetAsync($"api/cart/items?userId={userId}"); //cart items get userId
 
+            var ProductClient = _clientFactory.CreateClient();
+            ProductClient.BaseAddress = new Uri("https://localhost:7259/"); // ProductMicroservice
+            ProductClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            // Fetch products
+            var ProductResponse = await ProductClient.GetAsync($"api/product"); //get products...
 
-            if (CartResponse.IsSuccessStatusCode)
+            if (ProductResponse.IsSuccessStatusCode)
             {
-                CartItems = await CartResponse.Content.ReadFromJsonAsync<List<CartItem>>();
+                products = await ProductResponse.Content.ReadFromJsonAsync<List<Product>>();
 
-                
-            }
-            else
-            {
-                ErrorMessage = "Failed to load cart items.";
+                if (CartResponse.IsSuccessStatusCode)
+                {
+                    CartItems = await CartResponse.Content.ReadFromJsonAsync<List<CartItem>>();
+
+                    if(CartItems!=null) { 
+                        foreach (var item in CartItems)
+                        {
+                            item.ProductName = products.ToList().Where(a => a.Id == int.Parse(item.ProductId)).FirstOrDefault().Name;   
+                        }
+                    }
+                }
+                else
+                {
+                    ErrorMessage = "Failed to load cart items.";
+                }
             }
         }
         catch (Exception ex)

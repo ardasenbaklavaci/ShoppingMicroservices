@@ -9,16 +9,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Add the controllers service
-builder.Services.AddControllers(); // <-- Add this line
+builder.Services.AddControllers(); 
 
 // Add authorization services
-builder.Services.AddAuthorization(); // <-- This line remains
+builder.Services.AddAuthorization(); 
 
 // Configure the database context with SQL Server
 builder.Services.AddDbContext<ProductDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register the product repository
+// Register the product repository, dependency injection
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
