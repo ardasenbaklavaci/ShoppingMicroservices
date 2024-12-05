@@ -59,12 +59,14 @@ public class CartModel : PageModel
 
                 if (CartResponse.IsSuccessStatusCode)
                 {
-                    CartItems = await CartResponse.Content.ReadFromJsonAsync<List<CartItem>>();
+                    CartItems = await CartResponse.Content.ReadFromJsonAsync<List<CartItem>>();                  
 
                     if(CartItems!=null) { 
                         foreach (var item in CartItems)
                         {
                             item.ProductName = products.ToList().Where(a => a.Id == int.Parse(item.ProductId)).FirstOrDefault().Name;   
+                            item.Price = products.ToList().Where(a => a.Id == int.Parse(item.ProductId)).FirstOrDefault().Price;
+                            
                         }
                     }
                 }

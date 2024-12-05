@@ -25,17 +25,23 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
-
-                        <li class="nav-item">
-                            @if (Context.Session.GetString("JWTToken") != null)
-                            {
+                        @if (Context.Session.GetString("JWTToken") != null)
+                        {
+                            <li class="nav-item">                            
                                 <a class="btn btn-link">@Context.Session.GetString("User")</a>
-                            }
-                            else
-                            {
+                            </li>
+                            <li>
+                                <a href="/Cart" class="btn btn-link">Cart</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
                                 <a href="/Login" class="btn btn-link">Login</a>
-                            }
-                        </li>
+                            </li>
+                            
+                        }
+                        
 
                     </ul>
                 </div>

@@ -7,24 +7,8 @@
       "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEDA648-5171-4992-97E2-4569A2140571}|CartMicroservice\\CartMicroservice.csproj|e:\\github\\shoppingmicroservices\\cartmicroservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA648-5171-4992-97E2-4569A2140571}|CartMicroservice\\CartMicroservice.csproj|solutionrelative:cartmicroservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FEDA648-5171-4992-97E2-4569A2140571}|CartMicroservice\\CartMicroservice.csproj|e:\\github\\shoppingmicroservices\\cartmicroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FEDA648-5171-4992-97E2-4569A2140571}|CartMicroservice\\CartMicroservice.csproj|solutionrelative:cartmicroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|e:\\github\\shoppingmicroservices\\authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CCBF0E3-C121-47C1-AC26-3CA5864E180A}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,10 +29,6 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Cart.cshtml.cs",
@@ -56,74 +36,22 @@
               "RelativeDocumentMoniker": "WebAppCore\\Pages\\Cart.cshtml.cs",
               "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Cart.cshtml.cs",
               "RelativeToolTip": "WebAppCore\\Pages\\Cart.cshtml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAIAwwDkAAAAQAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAuwEQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:38:01.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\AuthAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AuthAPI\\Program.cs",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\AuthAPI\\Program.cs",
-              "RelativeToolTip": "AuthAPI\\Program.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:48:35.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\CartMicroservice\\Program.cs",
-              "RelativeDocumentMoniker": "CartMicroservice\\Program.cs",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\CartMicroservice\\Program.cs",
-              "RelativeToolTip": "CartMicroservice\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:39:29.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Index.cshtml",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WebAppCore\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAG4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T12:43:12.817Z",
+              "WhenOpened": "2024-12-05T10:26:21.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Cart.cshtml",
-              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Cart.cshtml",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Cart.cshtml",
-              "RelativeToolTip": "WebAppCore\\Pages\\Cart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAApAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAppCore\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T11:33:17.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\CartMicroservice\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "CartMicroservice\\Controllers\\CartController.cs",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\CartMicroservice\\Controllers\\CartController.cs",
-              "RelativeToolTip": "CartMicroservice\\Controllers\\CartController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T12:40:54.457Z",
+              "WhenOpened": "2024-12-05T10:23:27.866Z",
               "EditorCaption": ""
             }
           ]
