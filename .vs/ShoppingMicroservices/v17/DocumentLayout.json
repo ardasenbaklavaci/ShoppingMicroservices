@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "E:\\Github\\ShoppingMicroservices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|e:\\github\\shoppingmicroservices\\imagesmicroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|solutionrelative:imagesmicroservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|e:\\github\\shoppingmicroservices\\imagesmicroservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|solutionrelative:imagesmicroservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F3BEE2-2594-4C65-A4A3-6AF85231C703}|ProductMicroservice\\ProductMicroservice.csproj|e:\\github\\shoppingmicroservices\\productmicroservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{66F3BEE2-2594-4C65-A4A3-6AF85231C703}|ProductMicroservice\\ProductMicroservice.csproj|solutionrelative:productmicroservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|e:\\github\\shoppingmicroservices\\imagesmicroservice\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|solutionrelative:imagesmicroservice\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|e:\\github\\shoppingmicroservices\\imagesmicroservice\\data\\imagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|solutionrelative:imagesmicroservice\\data\\imagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|e:\\github\\shoppingmicroservices\\imagesmicroservice\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|solutionrelative:imagesmicroservice\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|e:\\github\\shoppingmicroservices\\imagesmicroservice\\imagedb.sql||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|solutionrelative:imagesmicroservice\\imagedb.sql||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|e:\\github\\shoppingmicroservices\\imagesmicroservice\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3746CA3B-3932-4A29-B163-5277225D17B9}|ImagesMicroservice\\ImagesMicroservice.csproj|solutionrelative:imagesmicroservice\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +63,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Program.cs",
+              "RelativeDocumentMoniker": "ImagesMicroservice\\Program.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Program.cs",
+              "RelativeToolTip": "ImagesMicroservice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T19:24:50.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ProductMicroservice\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductMicroservice\\appsettings.json",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ProductMicroservice\\appsettings.json",
+              "RelativeToolTip": "ProductMicroservice\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T19:23:33.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ImageDB.sql",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\ImageDB.sql",
+              "RelativeDocumentMoniker": "ImagesMicroservice\\ImageDB.sql",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\ImageDB.sql",
+              "RelativeToolTip": "ImagesMicroservice\\ImageDB.sql",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-08T12:06:44.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\appsettings.json",
+              "RelativeDocumentMoniker": "ImagesMicroservice\\appsettings.json",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\appsettings.json",
+              "RelativeToolTip": "ImagesMicroservice\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T12:04:15.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "ImagesMicroservice\\Controllers\\ImageController.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "ImagesMicroservice\\Controllers\\ImageController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:03:45.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Repositories\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "ImagesMicroservice\\Repositories\\ImageRepository.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Repositories\\ImageRepository.cs",
+              "RelativeToolTip": "ImagesMicroservice\\Repositories\\ImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:01:36.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageContext.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Data\\ImageContext.cs",
+              "RelativeDocumentMoniker": "ImagesMicroservice\\Data\\ImageContext.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Data\\ImageContext.cs",
+              "RelativeToolTip": "ImagesMicroservice\\Data\\ImageContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:00:20.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Image.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "ImagesMicroservice\\Models\\Image.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ImagesMicroservice\\Models\\Image.cs",
+              "RelativeToolTip": "ImagesMicroservice\\Models\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:59:43.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Cart.cshtml.cs",
               "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Cart.cshtml.cs",
               "RelativeDocumentMoniker": "WebAppCore\\Pages\\Cart.cshtml.cs",
@@ -43,13 +179,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebAppCore\\Pages\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebAppCore\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAABNAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwCEAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T10:23:27.866Z",
               "EditorCaption": ""
