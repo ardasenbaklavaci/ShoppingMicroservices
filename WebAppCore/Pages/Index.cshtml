@@ -83,7 +83,24 @@
     @foreach (var product in Model.Products)
     {
         <div class="product-card">
-            <img src="https://via.placeholder.com/150" alt="@product.Name" class="product-image" />
+            @if (product.ImageID.HasValue)
+            {
+                var image = Model.Images.FirstOrDefault(img => img.Id == product.ImageID.Value);
+                if (image != null)
+                {
+                    <img src="data:@image.ContentType;base64,@Convert.ToBase64String(image.Data)"
+                         alt="@product.Name" class="product-image" />
+                }
+                else
+                {
+                    <img src="https://via.placeholder.com/150" alt="@product.Name" class="product-image" />
+                }
+            }
+            else
+            {
+                <img src="https://via.placeholder.com/150" alt="@product.Name" class="product-image" />
+            }
+
             <h2 class="product-name">@product.Name</h2>
             <p class="product-brand">@product.Brand</p>
             <p class="product-summary">@product.Summary</p>
@@ -91,6 +108,7 @@
             <button class="add-to-cart-btn" onclick="addToCart('@product.Id')">Add to Cart</button>
         </div>
     }
+
 </div>
 
 <script>

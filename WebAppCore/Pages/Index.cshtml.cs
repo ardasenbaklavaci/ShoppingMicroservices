@@ -15,10 +15,32 @@ public class IndexModel : PageModel
     }
 
     public List<Product> Products { get; set; } = new();
-
+    public List<Image> Images { get; set; }
     public async Task OnGetAsync()
     {
-        var client = _httpClientFactory.CreateClient("ProductAPI");
-        Products = await client.GetFromJsonAsync<List<Product>>("Product");
+        var productClient = _httpClientFactory.CreateClient("ProductAPI");
+        Products = await productClient.GetFromJsonAsync<List<Product>>("Product");
+
+        var imageClient = _httpClientFactory.CreateClient("ImageAPI");
+        Images = await imageClient.GetFromJsonAsync<List<Image>>("/api/Image");
+
+
+        if (Images != null)
+        {
+            foreach (var image in Images)
+            {
+                Console.WriteLine($"Image ID: {image.Id}, File Name: {image.FileName}");
+            }
+        }
+
+        foreach(var _product in Products)
+        {
+            if (_product.ImageID.HasValue)
+            {
+
+            }
+        }
+
+
     }
 }
