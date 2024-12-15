@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "uiYfy9y0+82fKiz5iLl3HmVAywUZS7geWoLXnrcJUrg=",
+  "Hash": "5dzHVrqBJ+6znzxqiMOMdRTQYi3wUy/sCyLt0QkRKys=",
   "Source": "WebAppCore",
   "BasePath": "_content/WebAppCore",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\Github\\ShoppingMicroservices\\ProductMicroservice\\ProductMicroservice.csproj",
+      "Version": 2,
+      "Source": "ProductMicroservice",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "WebAppCore\\wwwroot",

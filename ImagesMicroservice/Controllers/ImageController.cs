@@ -9,44 +9,42 @@ namespace ImagesMicroservice.Controllers
     public class ImageController : ControllerBase
     {
         private readonly IImageRepository _repository;
-        private readonly IWebHostEnvironment _env;
 
-        public ImageController(IImageRepository repository, IWebHostEnvironment env)
+        public ImageController(IImageRepository repository)
         {
             _repository = repository;
-            _env = env;
         }
 
+        // Get all images metadata
         [HttpGet]
         public async Task<IActionResult> GetAll() => Ok(await _repository.GetAllAsync());
 
+        // Get a single image by ID
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var image = await _repository.GetByIdAsync(id);
             if (image == null) return NotFound();
-            return PhysicalFile(image.FilePath, image.ContentType);
+
+            // Return the binary data as an image
+            return File(image.Data, image.ContentType);
         }
 
+        // Upload an image
         [HttpPost]
-        public async Task<IActionResult> Upload(IFormFile file)
+        public async Task<IActionResult> Upload([FromForm] IFormFile file)
         {
             if (file == null || file.Length == 0)
                 return BadRequest("No file uploaded.");
 
-            var filePath = Path.Combine(_env.ContentRootPath, "Uploads", file.FileName);
-            Directory.CreateDirectory(Path.GetDirectoryName(filePath)!);
-
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.CopyToAsync(stream);
-            }
+            using var memoryStream = new MemoryStream();
+            await file.CopyToAsync(memoryStream);
 
             var image = new Image
             {
                 FileName = file.FileName,
                 ContentType = file.ContentType,
-                FilePath = filePath,
+                Data = memoryStream.ToArray(),
                 UploadedAt = DateTime.UtcNow
             };
 
@@ -54,14 +52,12 @@ namespace ImagesMicroservice.Controllers
             return CreatedAtAction(nameof(GetById), new { id = createdImage.Id }, createdImage);
         }
 
+        // Delete an image by ID
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var image = await _repository.GetByIdAsync(id);
             if (image == null) return NotFound();
-
-            if (System.IO.File.Exists(image.FilePath))
-                System.IO.File.Delete(image.FilePath);
 
             await _repository.DeleteAsync(id);
             return NoContent();

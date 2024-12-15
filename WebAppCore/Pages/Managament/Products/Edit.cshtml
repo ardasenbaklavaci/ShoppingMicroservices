@@ -1,0 +1,63 @@
+﻿@page
+@model WebAppCore.Pages.Managament.Products.EditModel
+@{
+}
+
+<h1>Edit Product</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Product.Name" class="control-label"></label>
+        <input asp-for="Product.Name" class="form-control" />
+        <span asp-validation-for="Product.Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Product.Brand" class="control-label"></label>
+        <input asp-for="Product.Brand" class="form-control" />
+        <span asp-validation-for="Product.Brand" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Product.Category" class="control-label"></label>
+        <input asp-for="Product.Category" class="form-control" />
+        <span asp-validation-for="Product.Category" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Product.Price" class="control-label"></label>
+        <input asp-for="Product.Price" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Product.Price" class="text-danger"></span>
+    </div>
+
+    
+
+    <div class="form-group">
+        <label>Current Image</label>
+        <div>
+            @if (Model.CurrentImageData != null)
+            {
+                <img src="data:image/png;base64,@Convert.ToBase64String(Model.CurrentImageData)"
+                     alt="Product Image" class="img-thumbnail" width="150" />
+            }
+            else
+            {
+                <img src="https://via.placeholder.com/150"
+                     alt="Placeholder Image" class="img-thumbnail" width="150" />
+            }
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="UploadedImage">Upload New Image</label>
+        <input type="file" id="UploadedImage" name="UploadedImage" class="form-control" />
+    </div>
+
+    <input type="hidden" name="Product.Id" value="@Model.Product.Id" />
+
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>

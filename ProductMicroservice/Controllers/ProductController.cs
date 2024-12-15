@@ -46,6 +46,9 @@ namespace ProductMicroservice.Controllers
             await _repository.DeleteProduct(id);
             return NoContent();
         }
+
+        
+
     }
 
 }

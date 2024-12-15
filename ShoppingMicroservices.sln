@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartMicroservice", "CartMic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{5B8C6747-2B7D-4E24-B0FC-B437C931D1D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagesMicroservice", "ImagesMicroservice\ImagesMicroservice.csproj", "{3746CA3B-3932-4A29-B163-5277225D17B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImagesMicroservice", "ImagesMicroservice\ImagesMicroservice.csproj", "{3746CA3B-3932-4A29-B163-5277225D17B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

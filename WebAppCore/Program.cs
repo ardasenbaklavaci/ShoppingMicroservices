@@ -9,7 +9,7 @@ builder.Services.AddRazorPages();
 // Dependency injection for ProductAPI
 builder.Services.AddHttpClient("ProductAPI", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7259/api/");
+    client.BaseAddress = new Uri("https://localhost:7259/api/");  // product microservice 
     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 }).ConfigurePrimaryHttpMessageHandler(() =>
 {
@@ -18,6 +18,22 @@ builder.Services.AddHttpClient("ProductAPI", client =>
         ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
     };
 });
+// Dependency injection for ImagesAPI
+
+builder.Services.AddHttpClient("ImageAPI", client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7268/");  // image microservice 
+    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+}).ConfigurePrimaryHttpMessageHandler(() =>
+{
+    return new HttpClientHandler
+    {
+        ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+    };
+});
+
+
+
 
 // Enable CORS to allow requests from the Razor Pages app
 builder.Services.AddCors(options =>
