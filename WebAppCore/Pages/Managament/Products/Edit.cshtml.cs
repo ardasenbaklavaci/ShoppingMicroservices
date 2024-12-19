@@ -83,22 +83,22 @@ namespace WebAppCore.Pages.Managament.Products
                         // Use the ID as needed
                         Console.WriteLine($"Inserted Image ID: {insertedImageId}");
 
-                        Product.ImageID = insertedImageId;
+                        Product.ImageID = insertedImageId;                     
 
-                        var productDemo = new Product
+                        if (Product.Summary == null)
                         {
-                            Id = Product.Id,
-                            Name = Product.Name,
-                            Brand = "asd",
-                            Summary = "asd",
-                            Description = "asd",
-                            Price = 0,
-                            Category = "asd",
-                            ImageID = Product.ImageID
-                        };
+                            Product.Summary = "";
+                        }
+                        if (Product.Description == null)
+                        {
+                            Product.Description = "";
+                        }
+                        if (Product.Category == null)
+                        {
+                            Product.Category = "";
+                        }
 
-
-                        var ProductResponse = await productsClient.PutAsJsonAsync($"/api/Product/{productDemo.Id}", productDemo);
+                        var ProductResponse = await productsClient.PutAsJsonAsync($"/api/Product/{Product.Id}", Product);
 
                         
                     }

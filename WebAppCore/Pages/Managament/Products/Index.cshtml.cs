@@ -12,9 +12,8 @@ namespace WebAppCore.Pages.Managament.Products
         {
             _httpClientFactory = httpClientFactory;
         }
-        [BindProperty]
-        public List<Product> Products { get; set; } = new();
-        public List<Image> Images { get; set; } = new();
+        public List<Product> Products { get; set; } 
+        public List<Image> Images { get; set; } 
         public async void OnGetAsync()
         {
             var productsClient = _httpClientFactory.CreateClient("ProductAPI");

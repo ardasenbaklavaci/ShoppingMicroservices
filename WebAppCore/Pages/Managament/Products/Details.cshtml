@@ -1,0 +1,30 @@
+﻿@page "{id:int}"
+@model WebAppCore.Pages.Managament.Products.DetailsModel
+@{
+}
+
+<div class="product-details">
+    <h1>@Model.Product.Name</h1>
+
+    <div class="product-image">
+        @if (Model.ProductImage != null)
+        {
+            <img src="data:@Model.ProductImage.ContentType;base64,@Convert.ToBase64String(Model.ProductImage.Data)"
+                 alt="@Model.Product.Name" class="img-thumbnail" width="300" />
+        }
+        else
+        {
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image" class="img-thumbnail" width="300" />
+        }
+    </div>
+
+    <div class="product-info">
+        <p><strong>Brand:</strong> @Model.Product.Brand</p>
+        <p><strong>Summary:</strong> @Model.Product.Summary</p>
+        <p><strong>Description:</strong> @Model.Product.Description</p>
+        <p><strong>Price:</strong> $@Model.Product.Price</p>
+        <p><strong>Category:</strong> @Model.Product.Category</p>
+    </div>
+
+    <a class="btn btn-primary" asp-page="/Index">Back to Products</a>
+</div>

@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Github/ShoppingMicroservices/WebAppCore/Pages/Managament/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdhbWVudFxQcm9kdWN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Github/ShoppingMicroservices/WebAppCore/Pages/Managament/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdhbWVudFxQcm9kdWN0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

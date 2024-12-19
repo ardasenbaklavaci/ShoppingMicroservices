@@ -83,6 +83,7 @@ E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\CartMicroservi
 E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\CartMicroservice.pdb
 E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\Azure.Core.dll
 E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\Azure.Identity.dll
+E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
@@ -151,4 +152,3 @@ E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\refint\CartMic
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicroservice.pdb
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicroservice.genruntimeconfig.cache
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\ref\CartMicroservice.dll
-E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
