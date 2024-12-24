@@ -14,7 +14,7 @@ namespace WebAppCore.Pages.Managament.Products
         }
         public List<Product> Products { get; set; } 
         public List<Image> Images { get; set; } 
-        public async void OnGetAsync()
+        public async Task OnGetAsync()
         {
             var productsClient = _httpClientFactory.CreateClient("ProductAPI");
             Products = await productsClient.GetFromJsonAsync<List<Product>>("Product");

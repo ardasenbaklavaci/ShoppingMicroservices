@@ -53,6 +53,8 @@ namespace WebAppCore.Pages.Managament.Products
             var imagesClient = _httpClientFactory.CreateClient("ImageAPI");
             var productsClient = _httpClientFactory.CreateClient("ProductAPI");
 
+            
+
             // Handle image upload
             if (UploadedImage != null)
             {
@@ -111,6 +113,26 @@ namespace WebAppCore.Pages.Managament.Products
                     var imageerror = await ImageResponse.Content.ReadAsStringAsync();                                       
                     throw new Exception($"Failed to upload image: {ImageResponse.StatusCode} - {imageerror}");                  
                 }
+            }
+            else
+            {
+                Product temp = await productsClient.GetFromJsonAsync<Product>($"Product/{Product.Id}");
+                Product.ImageID = temp.ImageID;
+
+                if (Product.Summary == null)
+                {
+                    Product.Summary = "";
+                }
+                if (Product.Description == null)
+                {
+                    Product.Description = "";
+                }
+                if (Product.Category == null)
+                {
+                    Product.Category = "";
+                }
+
+                var ProductResponse = await productsClient.PutAsJsonAsync($"/api/Product/{Product.Id}", Product);
             }
 
             return Page();
