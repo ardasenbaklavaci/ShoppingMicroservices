@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\Github\\ShoppingMicroservices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\managament\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\managament\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\managament\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\managament\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\managament\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\managament\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,49 +33,17 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Managament\\Products\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Managament\\Products\\Edit.cshtml.cs",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Managament\\Products\\Edit.cshtml.cs",
-              "RelativeToolTip": "WebAppCore\\Pages\\Managament\\Products\\Edit.cshtml.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAMwIYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:04:01.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Managament\\Products\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Managament\\Products\\Index.cshtml.cs",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Managament\\Products\\Index.cshtml.cs",
-              "RelativeToolTip": "WebAppCore\\Pages\\Managament\\Products\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:46:01.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Managament\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Managament\\Products\\Index.cshtml",
-              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Managament\\Products\\Index.cshtml",
-              "RelativeToolTip": "WebAppCore\\Pages\\Managament\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebAppCore\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebAppCore\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T11:46:00.718Z"
+              "WhenOpened": "2024-12-27T08:51:49.695Z",
+              "EditorCaption": ""
             }
           ]
         }

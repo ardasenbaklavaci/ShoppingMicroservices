@@ -19,7 +19,7 @@ public class IndexModel : PageModel
     public async Task OnGetAsync()
     {
         var productClient = _httpClientFactory.CreateClient("ProductAPI");
-        Products = await productClient.GetFromJsonAsync<List<Product>>("Product");
+        Products = await productClient.GetFromJsonAsync<List<Product>>("/api/Product");
 
         var imageClient = _httpClientFactory.CreateClient("ImageAPI");
         Images = await imageClient.GetFromJsonAsync<List<Image>>("/api/Image");

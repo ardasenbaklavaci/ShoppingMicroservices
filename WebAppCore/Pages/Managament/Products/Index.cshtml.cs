@@ -17,7 +17,7 @@ namespace WebAppCore.Pages.Managament.Products
         public async Task OnGetAsync()
         {
             var productsClient = _httpClientFactory.CreateClient("ProductAPI");
-            Products = await productsClient.GetFromJsonAsync<List<Product>>("Product");
+            Products = await productsClient.GetFromJsonAsync<List<Product>>("/api/Product");
 
             var imagesClient = _httpClientFactory.CreateClient("ImageAPI");
 
