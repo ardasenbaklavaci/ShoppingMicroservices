@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "E:\\Github\\ShoppingMicroservices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|e:\\github\\shoppingmicroservices\\apigatewayocelot\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|solutionrelative:apigatewayocelot\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|e:\\github\\shoppingmicroservices\\apigatewayocelot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|solutionrelative:apigatewayocelot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|e:\\github\\shoppingmicroservices\\apigatewayocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|solutionrelative:apigatewayocelot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|e:\\github\\shoppingmicroservices\\apigatewayocelot\\apigatewayocelot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|solutionrelative:apigatewayocelot\\apigatewayocelot.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66F3BEE2-2594-4C65-A4A3-6AF85231C703}|ProductMicroservice\\ProductMicroservice.csproj|e:\\github\\shoppingmicroservices\\productmicroservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66F3BEE2-2594-4C65-A4A3-6AF85231C703}|ProductMicroservice\\ProductMicroservice.csproj|solutionrelative:productmicroservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|e:\\github\\shoppingmicroservices\\apigatewayocelot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5C5FB0-C4F0-4825-88D5-8273475A341C}|ApiGatewayOcelot\\ApiGatewayOcelot.csproj|solutionrelative:apigatewayocelot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|e:\\github\\shoppingmicroservices\\webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{82B94C1C-5165-4EDB-8194-D77C6E19040F}|WebAppCore\\WebAppCore.csproj|solutionrelative:webappcore\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +62,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiGatewayOcelot.csproj",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\ApiGatewayOcelot.csproj",
+              "RelativeDocumentMoniker": "ApiGatewayOcelot\\ApiGatewayOcelot.csproj",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\ApiGatewayOcelot.csproj",
+              "RelativeToolTip": "ApiGatewayOcelot\\ApiGatewayOcelot.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-30T20:37:45.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiGatewayOcelot\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiGatewayOcelot\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T20:37:35.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Program.cs",
+              "RelativeDocumentMoniker": "WebAppCore\\Program.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Program.cs",
+              "RelativeToolTip": "WebAppCore\\Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:39:26.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ProductMicroservice\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductMicroservice\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ProductMicroservice\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductMicroservice\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvygAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:36:35.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiGatewayOcelot\\appsettings.json",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\appsettings.json",
+              "RelativeToolTip": "ApiGatewayOcelot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T11:48:49.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGatewayOcelot\\Program.cs",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\Program.cs",
+              "RelativeToolTip": "ApiGatewayOcelot\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T11:47:13.44Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGatewayOcelot\\ocelot.json",
+              "ToolTip": "E:\\Github\\ShoppingMicroservices\\ApiGatewayOcelot\\ocelot.json",
+              "RelativeToolTip": "ApiGatewayOcelot\\ocelot.json",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T11:22:25.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Github\\ShoppingMicroservices\\WebAppCore\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "WebAppCore\\Pages\\Index.cshtml",
@@ -42,8 +156,7 @@
               "RelativeToolTip": "WebAppCore\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-27T08:51:49.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T08:51:49.695Z"
             }
           ]
         }
