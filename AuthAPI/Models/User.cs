@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using BCrypt.Net;
 
 namespace AuthAPI.Models
 {
@@ -12,8 +13,7 @@ namespace AuthAPI.Models
         public string Username { get; set; }
 
         [Required]
-        [MaxLength(256)]
-        public byte[] PasswordHash { get; set; } // Store hashed passwords only
+        public string PasswordHash { get; set; }
 
         [Required]
         [MaxLength(100)]
@@ -23,19 +23,14 @@ namespace AuthAPI.Models
         [MaxLength(50)]
         public string Role { get; set; } // e.g., "User" or "Admin"
 
-        public static byte[] HashPassword(string password)
+        public static string HashPassword(string password)
         {
-            using (var sha256 = System.Security.Cryptography.SHA256.Create())
-            {
-                var bytes = System.Text.Encoding.UTF8.GetBytes(password);
-                return sha256.ComputeHash(bytes);
-            }
+            return BCrypt.Net.BCrypt.HashPassword(password);
         }
 
         public bool VerifyPassword(string password)
         {
-            var hashedPassword = HashPassword(password);
-            return hashedPassword.SequenceEqual(PasswordHash);
+            return BCrypt.Net.BCrypt.Verify(password, PasswordHash);
         }
     }
 }

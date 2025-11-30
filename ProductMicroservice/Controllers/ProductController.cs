@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProductMicroservice.Models;
 using ProductMicroservice.Repositories;
 
@@ -6,6 +7,7 @@ namespace ProductMicroservice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProductController : ControllerBase
     {
         private readonly IProductRepository _repository;
@@ -26,6 +28,7 @@ namespace ProductMicroservice.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreateProduct([FromBody] Product product)
         {
             await _repository.AddProduct(product);
@@ -33,6 +36,7 @@ namespace ProductMicroservice.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product product)
         {
             if (id != product.Id) return BadRequest();
@@ -41,6 +45,7 @@ namespace ProductMicroservice.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             await _repository.DeleteProduct(id);

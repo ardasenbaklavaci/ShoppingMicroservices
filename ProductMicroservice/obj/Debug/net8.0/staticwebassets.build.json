@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "8IXBmMbexfgXY0MO4/GE2rbSAGqnmBnkVNkhy9ey85g=",
-  "Source": "ProductMicroservice",
-  "BasePath": "_content/ProductMicroservice",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"bhk29v2yAaPxHcj1uV3jmCCSe8sCRple245SBtFtPak=","Source":"ProductMicroservice","BasePath":"_content/ProductMicroservice","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

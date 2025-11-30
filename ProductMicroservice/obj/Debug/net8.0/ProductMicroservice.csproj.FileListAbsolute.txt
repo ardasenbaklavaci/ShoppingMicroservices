@@ -141,11 +141,6 @@ E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\ProductMicr
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\ProductMicroservice.sourcelink.json
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets.build.json
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets.development.json
-E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.ProductMicroservice.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.build.ProductMicroservice.props
-E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProductMicroservice.props
-E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProductMicroservice.props
-E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets.pack.json
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\scopedcss\bundle\ProductMicroservice.styles.css
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\ProductM.CF0F291B.Up2Date
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\ProductMicroservice.dll
@@ -153,3 +148,12 @@ E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\refint\Prod
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\ProductMicroservice.pdb
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\ProductMicroservice.genruntimeconfig.cache
 E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\ref\ProductMicroservice.dll
+E:\Github\ShoppingMicroservices\ProductMicroservice\bin\Debug\net8.0\ProductMicroservice.staticwebassets.endpoints.json
+E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Github\ShoppingMicroservices\ProductMicroservice\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Github\ShoppingMicroservices\ProductMicroservice\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

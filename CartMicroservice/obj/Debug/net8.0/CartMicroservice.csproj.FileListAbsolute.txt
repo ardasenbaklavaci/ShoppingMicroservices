@@ -140,11 +140,6 @@ E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicroservi
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicroservice.sourcelink.json
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets.build.json
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets.development.json
-E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.CartMicroservice.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.build.CartMicroservice.props
-E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CartMicroservice.props
-E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CartMicroservice.props
-E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets.pack.json
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\scopedcss\bundle\CartMicroservice.styles.css
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicr.EDAD3D7F.Up2Date
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicroservice.dll
@@ -152,3 +147,11 @@ E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\refint\CartMic
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicroservice.pdb
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\CartMicroservice.genruntimeconfig.cache
 E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\ref\CartMicroservice.dll
+E:\Github\ShoppingMicroservices\CartMicroservice\bin\Debug\net8.0\CartMicroservice.staticwebassets.endpoints.json
+E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Github\ShoppingMicroservices\CartMicroservice\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

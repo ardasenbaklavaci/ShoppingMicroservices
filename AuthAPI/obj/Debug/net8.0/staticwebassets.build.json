@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "urPnr2NcaB0btaJuI2DtdeT+XBKQK8szdreKVTk8OUw=",
-  "Source": "AuthAPI",
-  "BasePath": "_content/AuthAPI",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"2VZF5+JFUs5oZCdxRy4ZbnESJkjHvHzG2ipOYZZPYbQ=","Source":"AuthAPI","BasePath":"_content/AuthAPI","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

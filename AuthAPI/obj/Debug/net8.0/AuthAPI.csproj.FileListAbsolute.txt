@@ -143,11 +143,6 @@ E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\AuthAPI.MvcApplicationP
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\AuthAPI.sourcelink.json
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets.build.json
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets.development.json
-E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.AuthAPI.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.AuthAPI.props
-E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AuthAPI.props
-E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AuthAPI.props
-E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets.pack.json
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\scopedcss\bundle\AuthAPI.styles.css
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\AuthAPI.csproj.Up2Date
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\AuthAPI.dll
@@ -155,3 +150,12 @@ E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\refint\AuthAPI.dll
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\AuthAPI.pdb
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\AuthAPI.genruntimeconfig.cache
 E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\ref\AuthAPI.dll
+E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\AuthAPI\bin\Debug\net8.0\AuthAPI.staticwebassets.endpoints.json
+E:\Github\ShoppingMicroservices\AuthAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Github\ShoppingMicroservices\AuthAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

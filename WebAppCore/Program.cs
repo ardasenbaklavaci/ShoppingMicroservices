@@ -36,7 +36,7 @@ builder.Services.AddHttpClient("ImageAPI", client =>
 
 builder.Services.AddHttpClient("CartAPI", client =>
 {
-    client.BaseAddress = new Uri("https://localhost:7246/");  // image microservice 
+    client.BaseAddress = new Uri("https://localhost:7246/");  // Cart microservice 
     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 }).ConfigurePrimaryHttpMessageHandler(() =>
 {

@@ -132,7 +132,12 @@
 
             if (response.ok) {
                 alert("Product added to cart successfully!");
-            } else {
+            } 
+            else if (userId == null) {
+                console.log("Response Status:", response.status);
+                alert("You need to login to add product to cart");
+            }
+            else {
                 console.log("Response Status:", response.status);
                 alert("Failed to add product to cart.");
             }

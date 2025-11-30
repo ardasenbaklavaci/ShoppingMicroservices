@@ -129,11 +129,6 @@ E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\ImagesMicros
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\ImagesMicroservice.sourcelink.json
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets.build.json
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets.development.json
-E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.ImagesMicroservice.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.build.ImagesMicroservice.props
-E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ImagesMicroservice.props
-E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ImagesMicroservice.props
-E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets.pack.json
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\scopedcss\bundle\ImagesMicroservice.styles.css
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\ImagesMi.A772934E.Up2Date
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\ImagesMicroservice.dll
@@ -141,3 +136,11 @@ E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\refint\Image
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\ImagesMicroservice.pdb
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\ImagesMicroservice.genruntimeconfig.cache
 E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\ref\ImagesMicroservice.dll
+E:\Github\ShoppingMicroservices\ImagesMicroservice\bin\Debug\net8.0\ImagesMicroservice.staticwebassets.endpoints.json
+E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Github\ShoppingMicroservices\ImagesMicroservice\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

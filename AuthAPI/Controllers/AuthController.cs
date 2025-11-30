@@ -24,7 +24,6 @@ namespace AuthAPI.Controllers
             _configuration = configuration;
         }
 
-        /*
         // POST: api/Auth/Register
         [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] RegisterModel model)
@@ -32,11 +31,11 @@ namespace AuthAPI.Controllers
             if (await _context.Users.AnyAsync(u => u.Email == model.Email))
                 return BadRequest("User with this email already exists.");
 
-            var user = new User
+            var user = new AuthAPI.Models.User
             {
                 Username = model.Username,
                 Email = model.Email,
-                PasswordHash = User.HashPassword(model.Password),
+                PasswordHash = AuthAPI.Models.User.HashPassword(model.Password),
                 Role = "User"
             };
 
@@ -45,7 +44,7 @@ namespace AuthAPI.Controllers
 
             return Ok("User registered successfully.");
         }
-        */
+        
         // POST: api/Auth/Login
         [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
